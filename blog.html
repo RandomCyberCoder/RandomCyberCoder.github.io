@@ -5,12 +5,41 @@
   </head>
   <body>
     <nav class="navbar">
-      <h1 class="logo">Emmanuel</h1>
+      <h1 class="logo"><a href="index.html">personal website</a></h1>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
     <main>
       <h1 class="page-title">Welcome to my Blog</h1>
       <p><strong>10/3:</strong> Today was scorching hot! Phew</p>
+      <br /><br />
+      <p>Would you like to share a personal story?</p>
+      <p>Yes?! Fill this form!</p>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" , placeholder="Enter Name" />
+        <br>
+        <label for="anonymous">Can I share your story?</label>
+        <input type="radio" id="anonymous" name="anonymous" />
+        <br>
+        <label for="Story">Your Story</label>
+        <textarea
+          id="story"
+          name="comments"
+          placeholder="Your Story!"
+          required
+        ></textarea>
+        <br>
+        <input type="submit" value="Submit!" />
+      </form>
     </main>
-    <footer class="footer">© 2023 Emmanuel's Website | All Rights Reserved</footer>
+    <footer class="footer">
+      © 2023 Emmanuel's Website | All Rights Reserved
+    </footer>
   </body>
 </html>
