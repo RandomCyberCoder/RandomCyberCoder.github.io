@@ -79,6 +79,11 @@ li a {
 .blog-entry {
   margin: 10px;
   border: 5px solid rgb(33, 71, 122);
+  padding: 10px;
+}
+
+.radio-input {
+  display: flex;
 }
 
 .logo a {
@@ -110,8 +115,6 @@ main {
 /* CSS for portfolio grid */
 
 .project {
-  display: flex;
-  flex-direction: row;
   max-width: 100%;
   margin: 1em 0 2em 0;
 
